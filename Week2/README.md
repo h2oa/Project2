@@ -120,7 +120,7 @@ Xử lý:
 Chương trình hoạt động:
 
 ```
-// 
+// https://github.com/lengochoahust/Project2/blob/main/Week2/batdongbo.cpp
 const int ledAutoPin = 4; // led bật tắt tự động
 const int buttonPin = 6;
 const int ledButtonPin = 8; // led bật tắt theo button
