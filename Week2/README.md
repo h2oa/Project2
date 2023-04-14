@@ -32,3 +32,22 @@ Gồm 4 chân, chia thành 2 cặp (A-B, C-D).
 ### 3. Chương trình
 
 https://github.com/lengochoahust/Project2/blob/main/Week2/button.cpp
+
+# Xử lý bất đồng bộ trong Arduino
+
+## I. Bài toán
+
+Dùng Arduino điều khiển 2 đèn LED, trong đó 1 đèn LED bật tắt tự động sau 3 giây, còn 1 đèn LED được điều khiển bằng button.
+
+## II. Giải quyết
+
+### 1. Phần cứng
+
+
+### 2. Mô tả lắp đặt
+
+![image](https://user-images.githubusercontent.com/114990730/232051630-c28cde39-a6ae-45d7-b606-aaf98a3ba2e3.png)
+
+### 3. Chương trình
+
+
