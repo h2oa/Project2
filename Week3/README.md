@@ -35,3 +35,11 @@
 - Chân RW nối với chân GND để ghi dữ liệu vào LCD.
 - Nối chân RS và E với 2 chân pin của Arduino để giao tiếp với Arduino. (ở đây dùng pin 11 và 12)
 - Điều khiển màn hình LCD ở chế độ 4 bit, kết nối 4 chân DB7, DB6, DB5, DB4 với 4 chân pin của Arduino. (ở đây dùng pin 2, 3, 4, 5)
+
+### 3. Chương trình
+
+Lập trình với màn hình LCD cần sử dụng thư viện `<LiquidCrystal.h>`.
+
+```
+
+```
