@@ -70,6 +70,39 @@ Thông số kĩ thuật
 
 ## IV. Giao tiếp với LCD của Arduino (sử dụng I2C)
 
+![image](https://user-images.githubusercontent.com/114990730/233786247-611acf6e-51c9-435d-8eab-7bcb94acd810.png)
 
 ### 1. Phần cứng
 
+- 1 Arduino UNO R3
+- 1 màn hình LCD kèm I2C
+- Các dây nối
+
+### 2. Sơ đồ lắp đặt
+
+![image](https://user-images.githubusercontent.com/114990730/233791014-cfacdbdb-38b1-4654-99f7-1275c1f4c6a4.png)
+
+### 3. Chương trình
+
+```
+// 
+#include <Adafruit_LiquidCrystal.h>
+
+int seconds = 0;
+
+Adafruit_LiquidCrystal lcd(0);
+
+void setup()
+{
+    lcd.begin(16, 2);
+    lcd.print("hello world");
+}
+
+void loop()
+{
+    lcd.setCursor(0, 1);
+    lcd.print(seconds);
+    delay(1000); // Wait for 500 millisecond(s)
+    seconds += 1;
+}
+```
