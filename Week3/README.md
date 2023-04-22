@@ -85,7 +85,7 @@ Thông số kĩ thuật
 ### 3. Chương trình
 
 ```
-// 
+// https://github.com/lengochoahust/Project2/blob/main/Week3/lcd_i2c.cpp
 #include <Adafruit_LiquidCrystal.h>
 
 int seconds = 0;
