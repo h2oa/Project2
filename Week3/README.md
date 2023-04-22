@@ -4,6 +4,8 @@
 
 ### 1. Cấu tạo màn hình LCD
 
+![image](https://user-images.githubusercontent.com/114990730/233759270-4bb97e18-5331-42a6-b250-bc7322ffc453.png)
+
 ![image](https://user-images.githubusercontent.com/114990730/232100003-3866e3d7-be67-47ea-afd4-c485fb473d04.png)
 
 - GND: nối đất.
