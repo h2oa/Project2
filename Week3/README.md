@@ -17,13 +17,13 @@
 - DB0 - DB7: 8 chân nhận dữ liệu.
 - Backlight Anode (+) và Backlight Cathode (-): Nguồn dương và nguồn âm của đèn màn hình LCD.
 
-## II. Giao tiếp với LCD của Arduino
+## II. Giao tiếp với LCD của Arduino (không sử dụng I2C)
 
 ### 1. Phần cứng
 
 - 1 Arduino UNO R3
 - 1 màn hình LCD
-- 1 công tắc trượt (slideswitch)
+- 1 biến trở.
 - 1 breadboard small
 - Các dây nối
 
@@ -45,3 +45,31 @@ Lập trình với màn hình LCD cần sử dụng thư viện `<LiquidCrystal.
 ```
 
 ```
+
+## III. Module I2C Arduino
+
+LCD có quá nhiều nhiều chân gây khó khăn trong quá trình đấu nối và chiếm dụng nhiều chân trên vi điều khiển. Dẫn đến sự ra đời của Module I2C Arduino.
+
+Thay vì phải mất 6 chân vi điều khiển để kết nối với LCD 16×2 (RS, EN, D7, D6, D5 và D4) thì module IC2 bạn chỉ cần tốn 2 chân (SCL, SDA) để kết nối.
+
+Module I2C hỗ trợ các loại LCD sử dụng driver HD44780(LCD 16×2, LCD 20×4, …) và tương thích với hầu hết các vi điều khiển hiện nay.
+
+Ưu điểm
+
+- Tiết kiệm chân cho vi điều khiển.
+- Dễ dàng kết nối với LCD.
+
+Thông số kĩ thuật
+
+- Điện áp hoạt động: 2.5-6V DC.
+- Hỗ trợ màn hình: LCD1602,1604,2004 (driver HD44780).
+- Giao tiếp: I2C.
+- Địa chỉ mặc định: 0X27 (có thể điều chỉnh bằng ngắn mạch chân A0/A1/A2).
+- Tích hợp Jump chốt để cung cấp đèn cho LCD hoặc ngắt.
+- Tích hợp biến trở xoay điều chỉnh độ tương phản cho LCD.
+
+## IV. Giao tiếp với LCD của Arduino (sử dụng I2C)
+
+
+### 1. Phần cứng
+
