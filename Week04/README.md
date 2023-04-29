@@ -69,6 +69,7 @@ pin: Lựa chọn ngắt mà bạn muốn tắt, dùng board Arduino Uno có 2 l
 Đoạn chương trình dưới đây sẽ làm sáng đèn led khi không nhấn nút và làm đèn led tắt đi khi người dùng nhấn nút, nếu vẫn giữ nút nhấn thì đèn led vẫn còn tắt. Sau khi thả nút nhấn, đèn led sẽ sáng trở lại.
 
 ```
+// https://github.com/lengochoahust/Project2/blob/main/Week04/ngatbutton.cpp
 int PIN_LED = 13;
 int BUTTON_PIN = 2;
 
