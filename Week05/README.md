@@ -54,7 +54,7 @@ Các hàm cần chú ý trong thư viện:
 Bài toán: Sử dụng Timer để điều khiển LED trên board nháy sau mỗi 1s.
 
 ```
-// 
+// https://github.com/lengochoahust/Project2/blob/main/Week05/timer.cpp
 #include <TimerOne.h> // Thư viện TimerOne
 
 const int ledPin = 13; // Định nghĩa chân kết nối LED
