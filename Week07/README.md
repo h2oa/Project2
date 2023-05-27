@@ -14,6 +14,7 @@ Với mỗi hàng (R1 đến R4), Chọn ra hàng Ri
 
 # II. Các hàm trong thư viện Keypad.h
 
+- Khởi tạo: Keypad(makeKeymap(userKeymap), row[], col[], rows, cols)
 - void begin(makeKeymap(userKeymap)): Khởi tạo internal keymap bằng userKeymap
 - char waitForKey(): Hàm này sẽ đợi mãi cho đến khi ai đó nhấn một phím. Lưu ý rằng nó sẽ chặn tất cả các mã khác cho đến khi một phím được nhấn (nghĩa là đèn LED không nhấp nháy, màn hình LCD không cập nhật, ...)
 - char getKey(): Trả về phím được nhấn, nếu có. Chức năng này không chặn.
@@ -43,3 +44,4 @@ Với mỗi hàng (R1 đến R4), Chọn ra hàng Ri
 |SCL|A5|
 |SDA|A4|
 
+![image](https://github.com/lengochoahust/Project2/assets/114990730/baba8446-d983-4fd1-9c6e-02ad3d052b95)
