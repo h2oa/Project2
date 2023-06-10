@@ -41,8 +41,8 @@ Với mỗi hàng (R1 đến R4), Chọn ra hàng Ri
 |-|-|
 |VCC|5V|
 |GND|GND|
-|SCL|A5|
-|SDA|A4|
+|SCL|SCL|
+|SDA|SDA|
 
 ![image](https://github.com/lengochoahust/Project2/assets/114990730/30d16fa5-4c7b-4a8e-9f0f-94a281d9ad04)
 
