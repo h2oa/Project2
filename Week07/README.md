@@ -44,4 +44,5 @@ Với mỗi hàng (R1 đến R4), Chọn ra hàng Ri
 |SCL|A5|
 |SDA|A4|
 
-![image](https://github.com/lengochoahust/Project2/assets/114990730/baba8446-d983-4fd1-9c6e-02ad3d052b95)
+![image](https://github.com/lengochoahust/Project2/assets/114990730/30d16fa5-4c7b-4a8e-9f0f-94a281d9ad04)
+
